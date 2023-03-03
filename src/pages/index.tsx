@@ -99,6 +99,7 @@ export default function Home() {
                 className={styles.vercelLogo}
                 width={300}
                 height={135}
+		alt={'spark logo'}
                 priority
               />
             </a>
