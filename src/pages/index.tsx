@@ -94,7 +94,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image style={{marginRight:'-20px'}}
+              <Image
                 src="/spark-logo.PNG"
                 className={styles.vercelLogo}
                 width={300}
