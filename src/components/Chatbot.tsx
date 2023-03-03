@@ -61,7 +61,7 @@ const Chatbot: React.FC<Props> = ({ options }) => {
           className={`chatbot-toggle-button${isOpen ? " open" : ""}`}
           onClick={handleToggleChatbot}
         >
-          <NextImage src={'/chat-icon.png'} width={40} height={40} />
+          <NextImage src={'/chat-icon.png'} width={40} height={40} alt={'chat icon'}/>
           <div className="chatbot-toggle-button-icon" />
         </div>
       </div>
